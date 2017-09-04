@@ -3,4 +3,4 @@
 # Notes
 Sharing Blogs, Notes, Ideas, Knowledge
 
-
+1. [Deep Learning Hardware](https://github.com/ankdesh/notes/blob/master/link-lists/DeepLearningHW.md)
