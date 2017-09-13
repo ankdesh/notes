@@ -1,10 +1,16 @@
 ## Docker Usage 
 ### Personal Docker commands
-*This section captures frequently used commands by me for copy paste*
-* Run ubuntu container first time 
+*This section captures frequently used commands by me for quick reference*
+* Run ubuntu container, execute bash on it 
 ```sh
 docker run -it -d ubuntu
+docker exec -t <container_id> bash
 ```
+* Commit container to new image and save to docker hub
+TODO
+
+
+
 
 ### Generic Docker commands 
 *This section captures frequently used generic docker commands*
@@ -15,4 +21,29 @@ docker run -it -d <image_name>
 * Execute interactive bash on detached container
 ```sh
 docker exec -it <container_id> bash
+```
+* Stop container 
+```sh
+docker <container_id> stop
+```
+* Commit changes to a new Docker image 
+```sh
+docker commit <container_id> <username>/<new imagename>
+```
+* Delete a Docker container
+```sh
+docker rm <container-id>
+```sh
+
+* Delete all Docker containers
+```sh
+docker rm $(docker ps -aq)
+```
+* Delete an image (make sure all the related containers are deleted using above commands)
+```sh
+docker rmi <image-name>
+```
+* Create an image from Dockerfile
+```sh
+docker build -t <image-name> <folder containing Dockerfile and other to be packed files>
 ```
