@@ -45,5 +45,5 @@ docker rmi <image-name>
 ```
 * Create an image from Dockerfile
 ```sh
-docker build -t <image-name> <folder containing Dockerfile and other to be packed files>
+docker build -t <image-name> [-f dockerfileName] <folder containing Dockerfile and other to be packed files>
 ```
