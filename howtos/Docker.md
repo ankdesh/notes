@@ -33,8 +33,7 @@ docker commit <container_id> <username>/<new imagename>
 * Delete a Docker container
 ```sh
 docker rm <container-id>
-```sh
-
+```
 * Delete all Docker containers
 ```sh
 docker rm $(docker ps -aq)
