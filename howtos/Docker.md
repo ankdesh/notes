@@ -4,7 +4,7 @@
 * Run ubuntu container, execute bash on it 
 ```sh
 docker run --name <name> -it -d ubuntu 
-docker exec -t <container_id> bash
+docker exec -it <container_id> bash
 ```
 * Commit container to new image and save to docker hub
 ```sh
