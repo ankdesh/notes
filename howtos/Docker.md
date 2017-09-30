@@ -3,7 +3,7 @@
 *This section captures frequently used commands by me for quick reference*
 * Run ubuntu container, execute bash on it 
 ```sh
-docker run -it -d ubuntu --name <name>
+docker run --name <name> -it -d ubuntu 
 docker exec -t <container_id> bash
 ```
 * Commit container to new image and save to docker hub
