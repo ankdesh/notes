@@ -7,8 +7,14 @@ docker run --name <name> -it -d ubuntu
 docker exec -t <container_id> bash
 ```
 * Commit container to new image and save to docker hub
-TODO
-
+```sh
+docker commit <container-name> [image-name[:tag]]
+```
+* Push image to dockerhub
+```sh
+docker login
+docker push imagename[:tag]
+```
 
 
 
