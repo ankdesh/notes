@@ -13,3 +13,8 @@ nvidia-docker run --rm --name tf-gpu -it -v /home/ankdesh/explore/LearnTry:/note
 ```sh
 nvidia-docker run --rm --name cuda8.gpu -it -v /home/ankdesh/explore/LearnTry:/notebooks  -v /home/ankdesh/installed/virtualenvs:/virtualenvs -p 8888:8888 cuda8.jupyter
 ```
+
+### Cuda bash with python-2.7 and python-3.4
+```sh
+nvidia-docker run --rm --name cuda8.bash -it -v /home/ankdesh/explore/LearnTry:/notebooks  -v /home/ankdesh/installed/virtualenvs:/virtualenvs -p 8888:8888 cuda8.bash
+```
