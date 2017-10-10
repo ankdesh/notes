@@ -15,7 +15,10 @@ docker commit <container-name> [image-name[:tag]]
 docker login
 docker push imagename[:tag]
 ```
-
+if push fails with error message - *denied: requested access to the resource is denied*, the rename the repo first using command
+```sh
+docker tag <image_name> ankdesh/<image_name>
+```
 
 
 ### Generic Docker commands 
