@@ -9,3 +9,4 @@ Sharing Blogs, Notes, Ideas, Knowledge
 # HowTos
 1. [Docker Cheatsheet](https://github.com/ankdesh/notes/blob/master/howtos/Docker.md)
 1. [Docker mySetup](https://github.com/ankdesh/notes/blob/master/howtos/SetupDockerEnvs.md)
+1. [Python Environments](https://github.com/ankdesh/notes/blob/master/howtos/PythonEnvs.md)
