@@ -16,5 +16,5 @@ nvidia-docker run --rm --name cuda8.gpu -it -v /home/ankdesh/explore/LearnTry:/n
 
 ### Cuda bash with python-2.7 and python-3.4
 ```sh
-nvidia-docker run --rm --name cuda8.bash -it -v /home/ankdesh/explore/kaggle-cdiscount/:/home/ankdesh/code  -v /home/ankdesh/installed/virtualenvs:/home/ankdesh/virtualenvs /media/ssd/datasets/cdiscount/:/home/ankdesh/dataset -p 8888:8888 ankdesh/cuda8.bash:latest
+nvidia-docker run --rm --name cuda8.bash -it -v /home/ankdesh/explore/kaggle-cdiscount/:/home/ankdesh/code  -v /home/ankdesh/installed/virtualenvs:/home/ankdesh/virtualenvs -v /media/ssd/datasets/cdiscount/:/home/ankdesh/dataset -p 8888:8888 ankdesh/cuda8.bash:latest
 ```
