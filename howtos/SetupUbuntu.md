@@ -48,3 +48,14 @@ execute
 sudo update-initramfs -u
 ```
 
+* Install Nvidia Drivers
+```
+1. Download from .deb file from https://developer.nvidia.com/cuda-80-ga2-download-archive
+1. Ctrl+Alt+1
+1. sudo service lightdm stop
+1. sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+1. sudo apt-get update
+1. sudo apt-get install cuda
+1. Reboot
+```
+
