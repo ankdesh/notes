@@ -34,3 +34,16 @@ sudo update-grub
 sudo reboot
 ``` 
 
+* Blacklist Nouveau
+```
+Add following lines to /etc/modprobe.d/blacklist-nouveau.conf (use sudo)
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+```
+execute 
+```
+sudo update-initramfs -u
+```
+alias nouveau off
+alias lbm-nouveau off
