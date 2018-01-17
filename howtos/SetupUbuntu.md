@@ -24,3 +24,13 @@ cd DevSetup
 ``` 
 sudo apt-get install -y  git   vim   gcc   g++   ipython   wget   screen 
 ```
+
+* In case Ctrl+Alt+F1 does not give terminal, add *nomodeset* to the GRUB_CMDLINE_LINUX_DEFAULT (from https://askubuntu.com/questions/162535/why-does-switching-to-the-tty-give-me-a-blank-screen)
+
+``` 
+sudo vim /etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
+sudo update-grub
+sudo reboot
+``` 
+
