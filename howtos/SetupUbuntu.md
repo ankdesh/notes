@@ -1,4 +1,4 @@
-## Setup Ubuntu 16.04 for my preferance 
+## Setup Ubuntu 16.04 routine
 ### List of things-to-do after fresh Ubuntu install
 
 * Install Google Chrome from
@@ -48,7 +48,7 @@ execute
 sudo update-initramfs -u
 ```
 
-* Install Nvidia Drivers
+* Install Nvidia Drivers & Cuda+Cudnn
 ```
 1. Download from .deb file from https://developer.nvidia.com/cuda-80-ga2-download-archive
 1. Ctrl+Alt+1
@@ -57,5 +57,7 @@ sudo update-initramfs -u
 1. sudo apt-get update
 1. sudo apt-get install cuda
 1. Reboot
+1. Get cudnn from https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/8.0_20170307/cudnn-8.0-linux-x64-v6.0-tgz
+1. extract and move files to /usr/local/cuda-8.0/lib64/ and /usr/local/cuda-8.0/include/
 ```
 
