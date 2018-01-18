@@ -43,7 +43,7 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
-execute 
+
 ```
 sudo update-initramfs -u
 ```
