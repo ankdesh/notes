@@ -50,14 +50,38 @@ sudo update-initramfs -u
 
 * Install Nvidia Drivers & Cuda+Cudnn
 
-  1. Download from .deb file from https://developer.nvidia.com/cuda-80-ga2-download-archive
-  1. Ctrl+Alt+1
-  1. sudo service lightdm stop
-  1. sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-  1. sudo apt-get update
-  1. sudo apt-get install cuda
-  1. Reboot
-  1. Get cudnn from https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/8.0_20170307/cudnn-8.0-linux-x64-v6.0-tgz
-  1. extract and move files to /usr/local/cuda-8.0/lib64/ and /usr/local/cuda-8.0/include/
+  * Download from .deb file from https://developer.nvidia.com/cuda-80-ga2-download-archive
+  * Get cudnn from https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/8.0_20170307/cudnn-8.0-linux-x64-v6.0-tgz
+  * Ctrl+Alt+1
+  ```
+    sudo service lightdm stop
+    sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+    sudo apt-get update
+    sudo apt-get install cuda
+  ```
+  * Extract cudnn and move files to /usr/local/cuda-8.0/lib64/ and /usr/local/cuda-8.0/include/
 
-
+* Install nvidia-docker
+  * Install Docker CE
+  ```
+    sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    sudo apt-get update
+    sudo apt-get install docker-ce
+    sudo addgroup ankdesh docker
+  ```
+  * Install nvidia-docker
+  ```
+    curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+    curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu16.04/amd64/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+    sudo apt-get update
+    sudo apt-get install -y nvidia-docker2
+    sudo pkill -SIGHUP dockerd
+  ```
+  * Test installations (would need a reboot after adding ankdesh to docker group to run without sudo)
+  ```
+    sudo docker run hello-world
+    docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+  ```
+   
