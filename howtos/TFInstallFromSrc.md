@@ -1,4 +1,4 @@
-## Install Tensorflow from source on Ubuntu 16.04 (CPU)
+## Install Tensorflow from source on Ubuntu 16.04 (CPU/GPU)
  
 * Install dependencies
 ```sh
