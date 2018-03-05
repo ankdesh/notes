@@ -2,7 +2,7 @@
  
 * Install dependencies
 ```sh
- sudo apt-get install python-numpy python-dev python-pip python-wheel
+ sudo apt-get install python-numpy python-dev python-pip python-wheel curl
  sudo pip install six numpy wheel
  ```
  (Optional) For GPU, install Cuda>7.0 and Cudnn>3.0 and
