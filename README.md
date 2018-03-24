@@ -17,3 +17,4 @@ Sharing Blogs, Notes, Ideas, Knowledge
 Short handy snippets of code 
 1. [Numpy Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/numpy.md)
 1. [PIL Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/PIL-Tricks.md)
+1. [Python list and map comprehensions](https://github.com/ankdesh/notes/blob/master/neat-tricks/py-comprehensions.md)
