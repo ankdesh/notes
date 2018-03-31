@@ -5,10 +5,17 @@ Ref: [ARM NN SDK installation page](https://developer.arm.com/technologies/machi
 ### Install Caffe 
 Refer - [Caffe Build](https://github.com/ankdesh/notes/blob/master/howtos/CaffeFromSrc.md)
 
+### Build Boost
+```sh
+$ ./bootstrap.sh --prefix=/home/ankdesh/installed/install_boost_1_64_0
+$ ./b2 install link=static cxxflags=-fPIC --with-filesystem --with-test --with-log --with-program_options
+```
+
 ### Create Android Standalone Toolchain
 ```sh 
 $NDK/build/tools/make_standalone_toolchain.py --arch arm64 --install-dir $MY_TOOLCHAINS/aarch64-linux-android-4.9 --stl gnustl --api 21
 ```
+
 ### Build Compute library
 
 Export the path -
@@ -26,6 +33,10 @@ opencl=1 embed_kernels=1
 neon=1  
 ```
 
+### Build ARMNN
+```sh
+cmake -DARMCOMPUTE_ROOT=/home/ankdesh/explore/arm/ComputeLibrary/ -DARMCOMPUTE_BUILD_DIR=/home/ankdesh/explore/arm/ComputeLibrary/build/ -DBOOST_ROOT=/home/ankdesh/installed/install_boost_1_64_0 -DCAFFE_GENERATED_SOURCES=/home/ankdesh/installed/caffe/.build_release/src/ -DBUILD_CAFFE_PARSER=1 ..
+```
 
 
 #### Useful links
