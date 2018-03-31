@@ -38,6 +38,15 @@ neon=1
 cmake -DARMCOMPUTE_ROOT=/home/ankdesh/explore/arm/ComputeLibrary/ -DARMCOMPUTE_BUILD_DIR=/home/ankdesh/explore/arm/ComputeLibrary/build/ -DBOOST_ROOT=/home/ankdesh/installed/install_boost_1_64_0 -DCAFFE_GENERATED_SOURCES=/home/ankdesh/installed/caffe/.build_release/src/ -DBUILD_CAFFE_PARSER=1 ..
 ```
 
+- If you are supporting NEON, add this argument to the CMake command:
+```sh
+-DARMCOMPUTENEON=1
+```
+
+- If you are supporting OpenCL, add this argument to the CMake command:
+```sh
+-DARMCOMPUTECL=1
+```
 
 #### Useful links
 - https://github.com/ARM-software/ComputeLibrary/issues/300
