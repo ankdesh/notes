@@ -13,6 +13,7 @@ Sharing Blogs, Notes, Ideas, Knowledge
 1. [Ubuntu mySetup](https://github.com/ankdesh/notes/blob/master/howtos/SetupUbuntu.md)
 1. [Tensorflow Build](https://github.com/ankdesh/notes/blob/master/howtos/TFInstallFromSrc.md)
 1. [Caffe Build](https://github.com/ankdesh/notes/blob/master/howtos/CaffeFromSrc.md)
+1. [ARMNN SDK Build](https://github.com/ankdesh/notes/blob/master/howtos/ArmNN-Install.md)
 
 # Neat Tricks
 Short handy snippets of code 
