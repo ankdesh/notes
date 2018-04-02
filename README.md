@@ -14,6 +14,7 @@ Sharing Blogs, Notes, Ideas, Knowledge
 1. [Tensorflow Build](https://github.com/ankdesh/notes/blob/master/howtos/TFInstallFromSrc.md)
 1. [Caffe Build](https://github.com/ankdesh/notes/blob/master/howtos/CaffeFromSrc.md)
 1. [ARMNN SDK Build](https://github.com/ankdesh/notes/blob/master/howtos/ArmNN-Install.md)
+1. [New C++ Proj Cmake setup](https://github.com/ankdesh/notes/blob/master/howtos/ProjectStructWithCmake.md)
 
 # Neat Tricks
 Short handy snippets of code 
