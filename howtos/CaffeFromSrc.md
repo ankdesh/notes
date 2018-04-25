@@ -7,11 +7,11 @@ $ sudo apt-get install --no-install-recommends libboost-all-dev
 $ sudo apt-get install the python-dev
 $ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 $ sudo apt-get install libopenblas-dev libatlas-base-dev
-```sh
+```
 
 ### Make Config file
-```
-cp Makefile.config.example Makefile.config
+```sh
+$ cp Makefile.config.example Makefile.config
 ```
 
 ### Fix hdf5 issue from 
