@@ -5,15 +5,22 @@
 from PIL import Image
 ```
 
+* Read Jpg Image to numpy buffer 
+```python
+readImage = Image.open(open(filename))
+npImg = np.array(readImage)
+```
+
 * Display single image from numpy buffer
 ```python
 pl.imshow(Image.fromarray(X))
 ```
 
-* Read Jpg Image to numpy buffer 
+* Display image and other formats in ipython notebook
+https://ipython.org/ipython-doc/2/api/generated/IPython.core.display.html
+e.g for image
 ```python
-readImage = Image.open(open(filename))
-npImg = np.array(readImage)
+display(Image(filename=imageName)
 ```
 
 * Display images horizontally
@@ -55,9 +62,3 @@ def createMontage (images, widthMontage = 1000, heightMontage = 1000):
         return montage
 ```
 
-* Display image and other formats in ipython notebook
-https://ipython.org/ipython-doc/2/api/generated/IPython.core.display.html
-e.g for image
-```python
-display(Image(filename=imageName)
-```
