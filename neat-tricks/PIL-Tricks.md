@@ -1,5 +1,21 @@
 # PIL (Python Image Library) snippets
 
+* Importing Image
+```python
+from PIL import Image
+```
+
+* Display single image from numpy buffer
+```python
+pl.imshow(Image.fromarray(X))
+```
+
+* Read Jpg Image to numpy buffer 
+```python
+readImage = Image.open(open(filename))
+npImg = np.array(readImage)
+```
+
 * Display images horizontally
 ```python
 import matplotlib.pyplot as plt
@@ -37,10 +53,6 @@ def createMontage (images, widthMontage = 1000, heightMontage = 1000):
                 montage.paste (smallImg, box = (i*smallImgH,j*smallImgW))
         
         return montage
-```
-* Display single image from buffer
-```python
-pl.imshow(Image.fromarray(X))
 ```
 
 * Display image and other formats in ipython notebook
