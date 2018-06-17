@@ -7,7 +7,7 @@ docker run -it -v <devel-dir>:/home/ankdesh  ankdesh-custom
 
 #### Cuda with Display set
 ```sh
-nvidia-docker run --rm --name cuda8.bash.tf.rl -it -e DISPLAY=$DISPLAY  -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority:rw -v /home/ankdesh/explore/LearnTry/RL/:/home/ankdesh/code  -v /home/ankdesh/virtualenvs:/home/ankdesh/virtualenvs -v /home/ankdesh/.ssh:/home/ankdesh/.ssh -p 8888:8888  ankdesh/cuda8.bash:latest
+nvidia-docker run --rm --name tf-gpu -it -e DISPLAY=$DISPLAY  -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority:rw -v /home/ankdesh/explore/:/home/ankdesh/explore  -v /home/ankdesh/virtualenvs:/home/ankdesh/virtualenvs -v /home/ankdesh/.ssh:/home/ankdesh/.ssh -p 8888:8888  ankdesh/tf-devel-gpu:latest
 ```
 
 #### Tensorflow
