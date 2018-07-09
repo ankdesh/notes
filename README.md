@@ -9,6 +9,7 @@ Sharing Blogs, Notes, Ideas, Knowledge
 # HowTos
 1. [Docker Cheatsheet](https://github.com/ankdesh/notes/blob/master/howtos/Docker.md)
 1. [Docker mySetup](https://github.com/ankdesh/notes/blob/master/howtos/SetupDockerEnvs.md)
+1. [Bash Commands](https://github.com/ankdesh/notes/blob/master/howtos/shellCommands.md)
 1. [Python Environments](https://github.com/ankdesh/notes/blob/master/howtos/PythonEnvs.md)
 1. [Ubuntu mySetup](https://github.com/ankdesh/notes/blob/master/howtos/SetupUbuntu.md)
 1. [Tensorflow Build](https://github.com/ankdesh/notes/blob/master/howtos/TFInstallFromSrc.md)
