@@ -12,3 +12,11 @@ screen -e'^Ww'
 $ export TERM=xterm
 $ stty rows 58 cols 190
 ```
+
+### Admin related commands
+* Make passwordless ssh login (from a@host1 to a@host2)
+On host1, generate ssh key and then add the key to host2 using 
+```sh
+$ ssh key-gen
+$ ssh-copy-id a@host2
+```
