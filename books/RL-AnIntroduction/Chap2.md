@@ -1,4 +1,4 @@
-## Chapter 2: Bandit Prooblems 
+## Chapter 2: Bandit Problems 
 
 * Greedy vs e-greedy
   * Greedy works good only for stationary, deterministic problems .
