@@ -22,3 +22,6 @@ Short handy snippets of code
 1. [Numpy Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/numpy.md)
 1. [PIL Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/PIL-Tricks.md)
 1. [Python list and map comprehensions](https://github.com/ankdesh/notes/blob/master/neat-tricks/py-comprehensions.md)
+
+# Literature Study
+1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/Literature/RL-for-DNN-Generation.md)
