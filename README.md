@@ -27,4 +27,4 @@ Short handy snippets of code
 1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/Literature/RL-for-DNN-Generation.md)
 
 # Book Notes
-1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/blob/books/RL-AnIntroduction/)
+1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/tree/master/books/RL-AnIntroduction)
