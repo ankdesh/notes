@@ -92,3 +92,12 @@ def plot_images(images, cls_true, cls_pred=None):
     plt.show()
 ```
 
+* Creating simple anitmation in jupyter notebook
+```py
+from IPython.display import clear_output
+for i in range(30):
+    clear_output(True)
+    print("after iteration %i"%i)
+    draw_something
+    sleep(0.5)
+```
