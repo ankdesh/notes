@@ -18,7 +18,7 @@ for t in range(1000):
     if done:
         break
 env.render(close=True)
-```
+```py
 
 3. Run the animation from captured frames 
 ```py
