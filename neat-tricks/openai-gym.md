@@ -1,6 +1,6 @@
 # Codes for handling openAI Gym
 
-* Capturing the env frames and playing it separately in Jupyter notebook
+### Capturing the env frames and playing it separately in Jupyter notebook
 1. Run the notebook with following command 
 ```sh
 xvfb-run -s "-screen 0 1400x900x24" jupyter notebook
