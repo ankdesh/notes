@@ -18,7 +18,7 @@ for t in range(1000):
     if done:
         break
 env.render(close=True)
-```py
+```
 
 3. Run the animation from captured frames 
 ```py
@@ -37,4 +37,4 @@ def display_frames_as_gif(frames):
     display(display_animation(anim, default_mode='loop'))
 
 display_frames_as_gif(frames)
-```py
+```
