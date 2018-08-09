@@ -1,4 +1,4 @@
-## Literature survey for neural network generation using Deep Reinforment Learning
+## Literature survey for neural network search (NAS) using Deep Reinforment Learning
 
 
 | Title                                                                                   | Summary                                                                                                                                                                                                                                                                                                                                                                  | Link                             | Affiliations      |
