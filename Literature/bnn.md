@@ -6,4 +6,4 @@
 |Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1   | [Summary](#Binarized-Neural-Networks) | https://arxiv.org/abs/1602.02830 | Courbariaux, Youshua Bengio               |
 
 
-### Binarized Neural Networks
+### Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
