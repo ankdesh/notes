@@ -24,7 +24,8 @@ Short handy snippets of code
 1. [Python list and map comprehensions](https://github.com/ankdesh/notes/blob/master/neat-tricks/py-comprehensions.md)
 
 # Literature Study
-1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/Literature/RL-for-DNN-Generation.md)
+1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/master/Literature/RL-for-DNN-Generation.md)
+1. [Binary Neural Networks](https://github.com/ankdesh/notes/blob/master/Literature/bnn.md)
 
 # Book Notes
 1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/tree/master/books/RL-AnIntroduction)
