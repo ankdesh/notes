@@ -23,3 +23,56 @@ mod_mask = ((my_vector % 7) == 0)
 pos_mask = (my_vector > 0)
 combined_mask = np.logical_and(mod_mask, pos_mask)
 ```
+
+* Sum across axis
+```python
+
+bsd = np.arange(30).reshape((2,3,5))
+print (bsd)
+[[[ 0  1  2  3  4]
+  [ 5  6  7  8  9]
+  [10 11 12 13 14]]
+
+ [[15 16 17 18 19]
+  [20 21 22 23 24]
+  [25 26 27 28 29]]]
+
+print (bsd.shape)
+(2, 3, 5)
+
+print (bsd.ndim)
+3
+
+print (bsd.size)
+30
+
+print (bsd.dtype)
+int64
+
+print (bsd.sum())
+435
+
+print (bsd.sum(axis=0))
+print (bsd.sum(axis=0).shape)
+[[15 17 19 21 23]
+ [25 27 29 31 33]
+ [35 37 39 41 43]]
+(3, 5)
+
+print (bsd.sum(axis=1))
+print (bsd.sum(axis=1).shape)
+[[15 18 21 24 27]
+ [60 63 66 69 72]]
+(2, 5)
+
+print (bsd.sum(axis=2))
+print (bsd.sum(axis=2).shape)
+[[ 10  35  60]
+ [ 85 110 135]]
+(2, 3)
+```
+```sh
+If we gives (axis = 0), it eliminates 0 th axis and results in matrix (3,5) i.e. it sums over "channel" axis. 
+In case (axis = 1), it sums over "rows" axis i.e. find the sum of rows in each channel. It eliminates 1st axis and resulting shape is (2,5) 
+In case of axis=2, it sums over elements in the rows and results in size of (2,3) 
+```
