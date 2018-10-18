@@ -26,7 +26,8 @@ Short handy snippets of code
 
 # Literature Study
 1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/master/Literature/RL-for-DNN-Generation.md)
-1. [Binary Neural Networks](https://github.com/ankdesh/notes/blob/master/Literature/bnn.md)
+1. [Binary Neural Networks](https://github.com/ankdesh/notes/blob/master/Literature/bnn.md) 
+1. [Network Quantization](https://github.com/ankdesh/notes/blob/master/Literature/nw-quant.md)
 
 # Book Notes
 1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/tree/master/books/RL-AnIntroduction)
