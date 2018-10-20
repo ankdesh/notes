@@ -1,12 +1,12 @@
 ## Literature survey for Neural network Quantization 
 
 
-| Title                                                                                   | Summary                                                                                                                                                                                                                                                                                                                                                                  | Link                             | Affiliations      |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|-------------------|
-|Deep Learning with Limited Numerical precision   | [Summary](#Deep-Learning-with-Limited-Numerical-precision) | https://arxiv.org/abs/1502.02551 | Gupta et.al. IBM              |
-|Trained Ternary Quantization   | [Summary](#Trained-Ternary-Quantization) | https://arxiv.org/abs/1612.01064 | Zhu et.al. Stanford              |
-| Model Compression via Distillation and Quantization   | [Summary](#Deep-Learning-with-Limited-Numerical-precision) | https://arxiv.org/abs/1802.05668 | Polino et.al. DeepMind, ETH Zuirch              |
-| Incremental Network Quantization: Towards Lossless CNNs with Low-Precision Weights (Zhou et. al.)   | [Summary](#Incremental-Network-Quantization-Towards-Lossless-CNNs-with-Low--Precision-Weights) | https://arxiv.org/abs/1702.03044 | Zhou et.al, Intel China          |
+| Title                                                                                   | Link                             | Affiliations      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|-------------------|
+|Deep Learning with Limited Numerical precision   | https://arxiv.org/abs/1502.02551 | Gupta et.al. IBM              |
+|Trained Ternary Quantization   |  https://arxiv.org/abs/1612.01064 | Zhu et.al. Stanford              |
+| Model Compression via Distillation and Quantization   | https://arxiv.org/abs/1802.05668 | Polino et.al. DeepMind, ETH Zuirch              |
+| Incremental Network Quantization: Towards Lossless CNNs with Low-Precision Weights (Zhou et. al.)   | https://arxiv.org/abs/1702.03044 | Zhou et.al, Intel China          |
 
 
 ### Deep Learning with Limited Numerical precision
