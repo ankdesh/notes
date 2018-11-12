@@ -47,6 +47,15 @@ print (accuracy_score(y_test_pred,Y_test_class).round(2))
 print (classification_report(y_test_pred,Y_test_class))
 
 ```
+* Plot training and validation history after train
+```py
+plt.plot(h.history['acc'])
+plt.plot(h.history['val_acc'])
+plt.legend(['Training', 'Validation'])
+plt.title('Accuracy')
+plt.xlabel('Epochs')
+```
+
 
 * Generating various reports for classification tasks
 ```py
