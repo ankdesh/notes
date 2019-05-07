@@ -30,3 +30,8 @@ var1 = xyz.ABC()
 ## Executing direcrtories
 A package can be made directly executable in python by adding __main__.py file to top level package folder.
 
+## Relative references for modules (works only within a package)
+![relative-imports](imgs/relative-imports.png)
+
+## Recommended Directory structure of a simple python package
+![recommended-dir-struct](imgs/recommended-dir-struct.png)
