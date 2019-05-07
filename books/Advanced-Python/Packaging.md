@@ -27,3 +27,6 @@ To make the above case simpler, add ```from xyz.abc import ABC``` to abc/__init_
 import xyz
 var1 = xyz.ABC()
 ```
+## Executing direcrtories
+A package can be made directly executable in python by adding __main__.py file to top level package folder.
+
