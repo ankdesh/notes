@@ -1,5 +1,5 @@
 ## Callable Function objects (to implement function with states)
-* Implementing a __call__() functions in a class makes its objects callable e.g.
+* Implementing a \_\_call__() functions in a class makes its objects callable e.g.
 
 ```py
 class Record:
