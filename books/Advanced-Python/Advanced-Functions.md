@@ -53,7 +53,7 @@ Result:
 ```
 
 ## Decorators 
-A decorator is a function which takes a functions and returns one. This allows to do simple modifications to Callables without intrusion. In the following example, we report an error if the input argument to function is negative
+* A decorator is a function which takes a functions and returns one. This allows to do simple modifications to Callables without intrusion. In the following example, we report an error if the input argument to function is negative
 ```py
 def check_neg(old_function):
     def new_function(arg):
@@ -74,7 +74,7 @@ Result:
 ValueError: Negative Argument
 ```
 
-When we need decorator to take input a value too
+* When we need decorator to take input a value too
 ```py
 def multiply(multiplier):
     def multiply_generator(old_func):
@@ -93,3 +93,5 @@ return_num(5)
 Result:
 15
 ```
+* Any callable can be used as a decorator
+* functools.wrap decorator can be used to retain the metadata (\_\_name__, \_\_doc__ etc) of decorated function.
