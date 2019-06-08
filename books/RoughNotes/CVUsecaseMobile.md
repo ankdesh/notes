@@ -1,4 +1,4 @@
-###Computer Vision use cases for Mobile Phones
+### Computer Vision use cases for Mobile Phones
 
 | MLKit Base API - https://developers.google.com/ml-kit/vision/ | Base technology | Comments |
 |---|---|---|
