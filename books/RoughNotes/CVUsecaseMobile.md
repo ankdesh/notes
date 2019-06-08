@@ -1,6 +1,6 @@
 ### Computer Vision use cases for Mobile Phones
 
-* MLKit Base API - https://developers.google.com/ml-kit/vision/ 
+#### MLKit Base API - https://developers.google.com/ml-kit/vision/ 
   * Predefined labels or use **AutoML** 
   
 | Feature | Base technology | Comments |
@@ -12,7 +12,7 @@
 | Object Detection and Tracking  |  Object Detection, RNN  | |
 | Text Detection  | CNN, RNN | |
 
-* Google Cloud based Video Analytics https://cloud.google.com/video-intelligence/
+#### Google Cloud based Video Analytics https://cloud.google.com/video-intelligence/
   * Classify video using predefined labels or Classify video using custom labels (**AutoML**) 
   * Detect shot changes
   * Detect and track objects
