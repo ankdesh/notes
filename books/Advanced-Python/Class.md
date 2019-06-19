@@ -69,3 +69,21 @@ Getting value
 ValueError: Temperature below -273 is not possible
 
 ```
+## Enums in Python
+```py
+>>> class Mood(Enum):
+...     FUNKY = 1
+...     HAPPY = 3
+...
+...     def describe(self):
+...         # self is the member here
+...         return self.name, self.value
+...
+...     def __str__(self):
+...         return 'my custom str! {0}'.format(self.value)
+...
+>>> Mood.HAPPY.describe()
+('HAPPY', 3)
+>>> str(Mood.FUNKY)
+'my custom str! 1'
+```
