@@ -1,4 +1,4 @@
-## Setup Ubuntu 16.04 routine
+## Setup Ubuntu 18.04 routine
 ### List of things-to-do after fresh Ubuntu install
 
 * Install Google Chrome from
@@ -25,41 +25,13 @@ cd DevSetup
 sudo apt-get install -y  git   vim   gcc   g++   ipython   wget   screen 
 ```
 
-* In case Ctrl+Alt+F1 does not give terminal, add *nomodeset* to the GRUB_CMDLINE_LINUX_DEFAULT (from https://askubuntu.com/questions/162535/why-does-switching-to-the-tty-give-me-a-blank-screen)
-
-``` 
-sudo vim /etc/default/grub
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
-sudo update-grub
-sudo reboot
-``` 
-
-* Blacklist Nouveau
-```
-Add following lines to /etc/modprobe.d/blacklist-nouveau.conf (use sudo)
-blacklist nouveau
-blacklist lbm-nouveau
-options nouveau modeset=0
-alias nouveau off
-alias lbm-nouveau off
-```
-
-```
-sudo update-initramfs -u
-```
-
 * Install Nvidia Drivers & Cuda+Cudnn
-
-  * Download from .deb file from https://developer.nvidia.com/cuda-80-ga2-download-archive
-  * Get cudnn from https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/8.0_20170307/cudnn-8.0-linux-x64-v6.0-tgz
-  * Ctrl+Alt+1
-  ```
-    sudo service lightdm stop
-    sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-    sudo apt-get update
-    sudo apt-get install cuda
-  ```
-  * Extract cudnn and move files to /usr/local/cuda-8.0/lib64/ and /usr/local/cuda-8.0/include/
+```
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+```
 
 * Install nvidia-docker
   * Install Docker CE
