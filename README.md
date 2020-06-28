@@ -34,6 +34,7 @@ Short handy snippets of code
 
 # Book/Tutorial Notes
 1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/tree/master/books/RL-AnIntroduction)
+1. [Bayesian Learning](https://github.com/ankdesh/notes/tree/master/books/bayesian-learning)
 1. [Advanced Python-Packages and Modules](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Packaging.md)
 1. [Advanced Python-Classes](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Class.md)
 1. [Advanced Python-Functions](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Advanced-Functions.md)
