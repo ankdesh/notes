@@ -21,6 +21,7 @@ Sharing Blogs, Notes, Ideas, Knowledge
 # Neat Tricks
 Short handy snippets of code 
 1. [Numpy Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/numpy.md)
+1. [Python Code Pearls](https://github.com/ankdesh/notes/blob/master/neat-tricks/py-pearls.md)
 1. [PIL Tricks](https://github.com/ankdesh/notes/blob/master/neat-tricks/PIL-Tricks.md)
 1. [Python list and map comprehensions](https://github.com/ankdesh/notes/blob/master/neat-tricks/py-comprehensions.md)
 1. [OpenAI Gym Setup](https://github.com/ankdesh/notes/blob/master/neat-tricks/openai-gym.md)
