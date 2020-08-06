@@ -1,5 +1,5 @@
 # Awesome AutoDL
-### Initial copy from https://github.com/markdtw/awesome-architecture-search 
+#### Initial copy from https://github.com/D-X-Y/Awesome-AutoDL
 
 ### 2020
 
