@@ -4,7 +4,7 @@
 ### 2020
 
 
-|  Title  |   Venue  |   Type   |   Code   |   Ankdesh Comments   |
+|  Title  |   Venue  |   Type   |   Code   |   Ankdesh Comments   | Ankdesh relevance |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 | [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | AISTATS | G | - |
 | [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | - | - |
@@ -38,7 +38,7 @@
 | [Computation Reallocation for Object Detection](https://openreview.net/forum?id=SkxLFaNKwB) | ICLR | - | - |
 | Towards Fast Adaptation of Neural Architectures with Meta Learning | ICLR | - | - |
 | AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures | ICLR | EA | - |
-| How to Own the NAS in Your Spare Time | ICLR | - | - |Channel side attack (using instructuction cache trace) to steal DNN architectures|
+| How to Own the NAS in Your Spare Time | ICLR | - | - |Channel side attack (using instructuction cache trace) to steal DNN architectures| Okay |
 
 ### 2019
 
