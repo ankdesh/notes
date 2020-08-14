@@ -93,6 +93,7 @@
 | [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf) | ICML | EA | [Github](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py) |
 | EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | ICML | RL | - |
 | [NAS-Bench-101: Towards Reproducible Neural Architecture Search](https://arxiv.org/abs/1902.09635) | ICML | Other | [Github](https://github.com/google-research/nasbench) |
+| [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1804.03230) | ICCV | G | - |
 
 ### 2018
 |  Title  |   Venue  |   Type   |   Code   |
@@ -113,8 +114,7 @@
 | [Neural Architecture Search with Bayesian Optimisation and Optimal Transport](https://arxiv.org/pdf/1802.07191.pdf) | NeurIPS | Other | [github](https://github.com/kirthevasank/nasbot) |
 | [Differentiable Neural Network Architecture Search](https://openreview.net/pdf?id=BJ-MRKkwG) | ICLR-W | G | - |
 | [Accelerating Neural Architecture Search using Performance Prediction](https://arxiv.org/abs/1705.10823) | ICLR-W | PD | - | - |
-| [NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications](https://arxiv.org/abs/1804.03230) | ECCV | - | - |
-
+| [NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications](https://arxiv.org/abs/1804.03230) | ECCV | G | - |
 
 
 ### 2017
