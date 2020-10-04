@@ -29,9 +29,10 @@ Short handy snippets of code
 1. [Pandas](https://github.com/ankdesh/notes/blob/master/neat-tricks/pandas.md)
 
 # Literature Study
-1. [Network Architecture Search](https://github.com/ankdesh/notes/blob/master/Literature/RL-for-DNN-Generation.md)
+1. [Network Architecture Search using RL](https://github.com/ankdesh/notes/blob/master/Literature/RL-for-DNN-Generation.md)
 1. [Binary Neural Networks](https://github.com/ankdesh/notes/blob/master/Literature/bnn.md) 
 1. [Network Quantization](https://github.com/ankdesh/notes/blob/master/Literature/nw-quant.md)
+1. [Awesome-NAS](https://github.com/ankdesh/notes/blob/master/Literature/Awesome-DNN.md)
 
 # Book/Tutorial Notes
 1. [RL-an introduction(Sutton et.al)](https://github.com/ankdesh/notes/tree/master/books/RL-AnIntroduction)
