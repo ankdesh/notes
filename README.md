@@ -44,3 +44,4 @@ Short handy snippets of code
 # ML Notes
 1. [Calculating max-log-likelihood without gradient descent](https://github.com/ankdesh/notes/blob/master/howtos/Calculating-max-log-likelihood-without-graidient-descent.md)
 1. [Understanding Log likelihood](https://github.com/ankdesh/notes/blob/master/howtos/Understanding-Log-likelihood.md)
+1. [VAE introduction](https://github.com/ankdesh/notes/blob/master/howtos/Variational%20autoencoders.pdf)
