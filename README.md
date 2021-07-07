@@ -5,6 +5,7 @@ Sharing Blogs, Notes, Ideas, Knowledge
 
 1. [Deep Learning Hardware](https://github.com/ankdesh/notes/blob/master/link-lists/DeepLearningHW.md)
 2. [Deep Learning Theory](https://github.com/ankdesh/notes/blob/master/link-lists/DeepLearningTheory.md)
+3. [GoF Patterns and Refactoring Guides](https://refactoring.guru/)
 
 # HowTos
 1. [Docker Cheatsheet](https://github.com/ankdesh/notes/blob/master/howtos/Docker.md)
