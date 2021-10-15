@@ -40,6 +40,7 @@ Short handy snippets of code
 1. [Advanced Python-Packages and Modules](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Packaging.md)
 1. [Advanced Python-Classes](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Class.md)
 1. [Advanced Python-Functions](https://github.com/ankdesh/notes/tree/master/books/Advanced-Python/Advanced-Functions.md)
+1. [Microk8s](https://github.com/ankdesh/notes/tree/master/books/k8/microk8s.md)
 
 # ML Notes
 1. [Calculating max-log-likelihood without gradient descent](https://github.com/ankdesh/notes/blob/master/howtos/Calculating-max-log-likelihood-without-graidient-descent.md)
