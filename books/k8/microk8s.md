@@ -8,9 +8,7 @@ sudo microk8s status --wait-ready
 ```
 
 ### Concepts
-![](imgs/1.png{:height="50%" width="50%"}
-![](imgs/2.png{:height="50%" width="50%"}
-
+<img src="imgs/1.png" width="35%"> <img src="imgs/2.png" width="45%">
 
 ### Kubectl
 * Setup Kubectl
@@ -19,5 +17,28 @@ echo "alias kubectl='microk8s.kubectl'" >> ~/.bashrc
 ```
 * Get commands
 ```sh
-kubectl get node
+kubectl get nodes
+kubectl get pods
 kubectl get severices
+kubectl get namespaces
+kubectl get pods -A  # All namespaces
+kubectl -n kube-system get pods # get pods from namespace kube-system
+```
+* Describe commnds
+```sh
+kubectl describe nodes <node name>
+```
+* Explore resources
+```
+kubectl describe nodes
+kubectl explain [type] e.g. kubectl explain Pod
+```
+* run command
+```sh
+kubectl run NAME --image=image [--env="key=value"] [--port=port] [--replicas=replicas] [--dry-run=bool] [--overrides=inline-json] [--command] -- [COMMAND] [args...]
+kubectl run pingpong --image alpine ping 1.1.1.1 # eg. run new container with image alping and use ping command 
+```
+* logs
+```sh
+kubectl logs pod/pingpong
+```
