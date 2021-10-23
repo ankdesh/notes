@@ -38,6 +38,11 @@ kubectl explain [type] e.g. kubectl explain Pod
 kubectl run NAME --image=image [--env="key=value"] [--port=port] [--replicas=replicas] [--dry-run=bool] [--overrides=inline-json] [--command] -- [COMMAND] [args...]
 kubectl run pingpong --image alpine ping 1.1.1.1 # eg. run new container with image alping and use ping command 
 ```
+* attach command # Attach to running docker
+```sh
+kubectl attach -it pingpong
+```
+
 * logs
 ```sh
 kubectl logs pod/pingpong
